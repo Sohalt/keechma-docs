@@ -52,16 +52,16 @@ body:
 </li>
 <li><strong>UI components are decoupled and reusable</strong>
 <ul>
-<li>UI components can declare it&apos;s dependencies</li>
+<li>UI components can declare their dependencies</li>
 <li>Dependencies are injected when the application is started</li>
-<li>Each component has it&apos;s own context</li>
+<li>Each component has its own context</li>
 </ul>
 </li>
 <li><strong>No shared globals</strong>
 <ul>
 <li>Router is bound to the application context</li>
 <li>App state is bound to the application context</li>
-<li>Multiple apps can run at the same time, each with it&apos;s own state</li>
+<li>Multiple apps can run at the same time, each with its own state</li>
 </ul>
 </li>
 </ul>
