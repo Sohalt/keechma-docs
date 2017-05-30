@@ -45,7 +45,7 @@ body:
 
 (<span class="hljs-name"><span class="hljs-builtin-name">defn</span></span> user-table-component
   (<span class="hljs-name">ui/constructor</span>
-    {<span class="hljs-symbol">:renderer</span> user-list-renderer
+    {<span class="hljs-symbol">:renderer</span> user-table-renderer
      <span class="hljs-symbol">:subscription-deps</span> [<span class="hljs-symbol">:user-list</span>]}))
      <span class="hljs-comment">;; Declare that this component is dependent on the `:user-list` subscription</span>
 
